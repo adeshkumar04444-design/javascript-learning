@@ -1,0 +1,13 @@
+let day = "Monday";
+switch (day) {
+  case "Monday":
+    console.log("Start of the work week.");
+    break;
+  case "Friday":
+    console.log("End of the work week!");
+    break;
+  default:
+    console.log("Just another day.");
+}
+
+// Output: Start of the work week.
